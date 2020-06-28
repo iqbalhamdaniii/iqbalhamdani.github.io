@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Irma Rofni W.">
+	<title>Web Berita Amikom</title>
+
+	<!-- Bootstrap CSS -->
+    <link href="styles/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Mengatur Gambar Untuk Carausel / Style dari Carauselnya -->
+	<style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+<!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container">
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">BERANDA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="politik.html">POLITIK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="olahraga.html">OLAHRAGA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kesehatan.html">KESEHATAN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="musik.html">MUSIK</a>
+        </li>
+      </ul>
+
+      <!-- Search Bar -->
+      <form class="form-inline" action="#">
+        <input class="form-control" type="text" placeholder="Masukkan pencarian">
+        <button class="btn btn-primary" type="submit">Cari</button>
+      </form>
+    </div>  
+    </nav>
+
+<!-- Membuat Header -->
+<header>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/nature.jpg" alt="Abstract" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="images/nature.jpg" alt="Nature" width="1100" height="500">
+          <div class="carousel-caption d-none d-md-block">
+              <h3>2nd Slide</h3>
+              <p>This is a description for the third slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/nature.jpg" alt="Plane" width="1100" height="500">
+          <div class="carousel-caption d-none d-md-block">
+              <h3>Third Slide</h3>
+              <p>This is a description for the third slide.</p>
+            </div>
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </header> 
+
+
+ <!-- Membuat Konten -->
+    <!-- Page Content -->
+    <div class="container">
+      <h1 class="display-4" style="padding-top: 0.3em; padding-bottom: 0.3em">Berita Utama Tiap Kategori</h1>
+      
+      <!-- Cards -->
+      <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style="margin-bottom: 1em">
+        <img class="card-img-top" src="images/female-speaker.svg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Berita 1</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary">Selengkapnya >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card" style="margin-bottom: 1em">
+        <img class="card-img-top" src="images/male-speaker.svg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Berita 2</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary">Selengkapnya >></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="row">
+      <div class="col-sm-6">
+        <div class="card" style="margin-bottom: 1em">
+        <img class="card-img-top" src="images/female-speaker.svg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Berita 3</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary">Selengkapnya >></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card" style="margin-bottom: 1em">
+        <img class="card-img-top" src="images/male-speaker.svg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">Berita 4</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary">Selengkapnya >></a>
+          </div>
+        </div>
+      </div> 
+      </div> <!-- closing row -->
+    </div>
+    <!-- /.container -->
+
+<!-- Membuat Footer--><!-- Footer -->
+    <footer class="py-5 bg-dark" style="margin-top: 2em">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 2020 - Irma Rofni W. </p>
+      </div>
+    </footer>
+
+ <!-- Bootstrap core JavaScript -->
+    <script src="styles/js/jquery-3.5.1.min.js"></script>
+    <script src="styles/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
